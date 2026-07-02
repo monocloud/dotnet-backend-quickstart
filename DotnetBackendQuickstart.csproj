@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MonoCloud.Backend" Version="0.*-*" />
+    <PackageReference Include="MonoCloud.Backend" Version="*" />
   </ItemGroup>
 
 </Project>
