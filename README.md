@@ -1,12 +1,12 @@
 <div align="center">
-  <a href="https://www.monocloud.com?utm_source=github&utm_medium=dotnet_backend_quickstart" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.monocloud.com?utm_source=github&utm_medium=dotnet_api_authentication_quickstart" target="_blank" rel="noopener noreferrer">
     <picture>
-      <img src="https://raw.githubusercontent.com/monocloud/dotnet-backend-quickstart/refs/heads/main/banner.svg" alt="MonoCloud Banner">
+      <img src="https://raw.githubusercontent.com/monocloud/dotnet-api-authentication-quickstart/refs/heads/main/banner.svg" alt="MonoCloud Banner">
     </picture>
   </a>
   <div align="right">
-    <a href="https://www.nuget.org/packages/MonoCloud.Backend" target="_blank">
-      <img src="https://img.shields.io/nuget/v/MonoCloud.Backend" alt="NuGet" />
+    <a href="https://www.nuget.org/packages/MonoCloud.Authentication.Api" target="_blank">
+      <img src="https://img.shields.io/nuget/v/MonoCloud.Authentication.Api" alt="NuGet" />
     </a>
     <a href="https://opensource.org/licenses/MIT">
       <img src="https://img.shields.io/:license-MIT-blue.svg?style=flat" alt="License: MIT" />
@@ -16,7 +16,7 @@
 
 <br />
 
-## .NET Backend Quickstart
+## .NET API Authentication Quickstart
 
 A **minimal ASP.NET Core (minimal API) example** showing how to protect API endpoints with access token validation using MonoCloud.
 
@@ -26,7 +26,7 @@ A **minimal ASP.NET Core (minimal API) example** showing how to protect API endp
 - Endpoint protection via the standard authentication and authorization pipeline
 - Accessing the authenticated user's claims
 
-Built with [**`MonoCloud.Backend`**](https://www.nuget.org/packages/MonoCloud.Backend).
+Built with [**`MonoCloud.Authentication.Api`**](https://www.nuget.org/packages/MonoCloud.Authentication.Api).
 
 ## Prerequisites
 
@@ -36,7 +36,7 @@ Before you begin:
 2. Set the **Audience** (for example `https://api.example.com`) — this uniquely identifies your API
 3. Add a scope named `example-api` and mark the scope as a default scope
 
-You'll also need the [.NET SDK](https://dotnet.microsoft.com/download) (8.0 or later).
+You'll also need the [.NET SDK](https://dotnet.microsoft.com/download) (10.0 or later).
 
 ## Configure the application
 
@@ -67,9 +67,9 @@ curl -H "Authorization: Bearer <your-access-token>" http://localhost:3000/api/pr
 
 ## 📘 Learn more
 
--   **.NET Backend Quickstart:** [https://www.monocloud.com/docs/quickstarts/dotnet-backend](https://www.monocloud.com/docs/quickstarts/dotnet-backend?utm_source=github&utm_medium=dotnet_backend_quickstart)
--   **.NET Backend SDK Docs:** [https://www.monocloud.com/docs/sdks/dotnet-backend](https://www.monocloud.com/docs/sdks/dotnet-backend/index?utm_source=github&utm_medium=dotnet_backend_quickstart)
--   **API Reference:** [https://monocloud.github.io/backend-dotnet](https://monocloud.github.io/backend-dotnet?utm_source=github&utm_medium=dotnet_backend_quickstart)
+-   **.NET API Authentication Quickstart:** [https://www.monocloud.com/docs/quickstarts/dotnet-api-authentication](https://www.monocloud.com/docs/quickstarts/dotnet-api-authentication?utm_source=github&utm_medium=dotnet_api_authentication_quickstart)
+-   **.NET API Authentication SDK Docs:** [https://www.monocloud.com/docs/sdks/dotnet-api-authentication](https://www.monocloud.com/docs/sdks/dotnet-api-authentication/index?utm_source=github&utm_medium=dotnet_api_authentication_quickstart)
+-   **API Reference:** [https://monocloud.github.io/api-authentication-dotnet](https://monocloud.github.io/api-authentication-dotnet?utm_source=github&utm_medium=dotnet_api_authentication_quickstart)
 
 ## 🤝 Contributing & Support
 
@@ -80,7 +80,7 @@ curl -H "Authorization: Bearer <your-access-token>" http://localhost:3000/api/pr
 
 ### Security
 
-Do **not** report security issues publicly. Please follow the contact instructions at: [https://www.monocloud.com/contact](https://www.monocloud.com/contact?utm_source=github&utm_medium=dotnet_backend_quickstart)
+Do **not** report security issues publicly. Please follow the contact instructions at: [https://www.monocloud.com/contact](https://www.monocloud.com/contact?utm_source=github&utm_medium=dotnet_api_authentication_quickstart)
 
 ## License
 
