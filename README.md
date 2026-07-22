@@ -67,9 +67,10 @@ curl -H "Authorization: Bearer <your-access-token>" http://localhost:3000/api/pr
 
 ## 📘 Learn more
 
--   **.NET API Authentication Quickstart:** [https://www.monocloud.com/docs/quickstarts/dotnet-api-authentication](https://www.monocloud.com/docs/quickstarts/dotnet-api-authentication?utm_source=github&utm_medium=dotnet_api_authentication_quickstart)
--   **.NET API Authentication SDK Docs:** [https://www.monocloud.com/docs/sdks/dotnet-api-authentication](https://www.monocloud.com/docs/sdks/dotnet-api-authentication/index?utm_source=github&utm_medium=dotnet_api_authentication_quickstart)
--   **API Reference:** [https://monocloud.github.io/api-authentication-dotnet](https://monocloud.github.io/api-authentication-dotnet?utm_source=github&utm_medium=dotnet_api_authentication_quickstart)
+- **Documentation:** [https://www.monocloud.com/docs](https://www.monocloud.com/docs?utm_source=github&utm_medium=dotnet_api_authentication_quickstart)
+- **Quickstart:** [https://www.monocloud.com/docs/quickstarts/dotnet-api-authentication](https://www.monocloud.com/docs/quickstarts/dotnet-api-authentication?utm_source=github&utm_medium=dotnet_api_authentication_quickstart)
+- **SDK Reference:** [https://www.monocloud.com/docs/sdks/dotnet-api-authentication](https://www.monocloud.com/docs/sdks/dotnet-api-authentication?utm_source=github&utm_medium=dotnet_api_authentication_quickstart)
+- **API Reference:** [https://monocloud.github.io/api-authentication-dotnet](https://monocloud.github.io/api-authentication-dotnet?utm_source=github&utm_medium=dotnet_api_authentication_quickstart)
 
 ## 🤝 Contributing & Support
 
